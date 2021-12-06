@@ -5,8 +5,9 @@ git version
 
 git init  >>新增控管目錄
 git status  >>控管目錄內的檔案
-git add  >>新增指定目錄檔案
+git add  >>新增指定目錄檔案 ，指定檔案確認狀態
 git add .  >>新增所有目錄內檔案狀態
+git restore  >>恢復被刪除檔案
 
 """
 git cat-file -t 244de3  >>t type 型式
@@ -17,3 +18,4 @@ git cat-file -s 244de3  >>s size
 
 git ls-files -s  >>目錄內所有文件檔案以及其編碼
 git ls-files >>目錄內所有文件檔案
+ git commit -m "first commit"  >>存檔案到倉儲區
