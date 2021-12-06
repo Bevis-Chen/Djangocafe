@@ -18,4 +18,6 @@ git cat-file -s 244de3  >>s size
 
 git ls-files -s  >>目錄內所有文件檔案以及其編碼
 git ls-files >>目錄內所有文件檔案
- git commit -m "first commit"  >>存檔案到倉儲區
+
+git commit -m "備註"  >>存檔案到倉儲區
+git log  >>觀察倉儲區紀錄
